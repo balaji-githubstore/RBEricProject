@@ -4,6 +4,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 Verify_Valid_Credential_Test
+    [Tags]    OP-108
     Append To Environment Variable    PATH    C:\\Components    
     Open Browser    url=https://demo.openemr.io/b/openemr/interface/login/login.php?site=default    browser=chrome
     Maximize Browser Window   
